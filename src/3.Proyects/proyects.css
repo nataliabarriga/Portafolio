@@ -1,0 +1,111 @@
+.halfBoxFour{
+    width: 40%;
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.proyectBox{
+    width: 50%;
+    height: 300px;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex:  0 0 auto;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #32289F;
+    margin: 0;
+}
+
+.imgProyects{
+    width: 90%;
+    margin:  0  0 0 20px;
+}
+
+.btnProyect{
+    width: 30%;
+    height: 30px;
+    margin: 0 10px 0 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #32289F;
+    color: white;
+}
+
+.btnProyect:hover{
+    background-color: #FFD900;
+}
+
+@media (max-width:1024px){
+
+    .halfBoxFour{
+        width: 50%;
+    }
+
+    .proyectBox{
+        width: 55%;
+    }
+
+    .btnProyect{
+        width: 35%;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .halfBoxFour{
+        width: 50%;
+    }
+
+    .proyectBox{
+        width: 70%;
+    }
+}
+
+@media (max-width:450px){
+
+    .halfBoxFour{
+        width: 40%;
+        margin: 0 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .halfBoxFour{
+        order: -1;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px 0px 0 10px;
+    }
+    
+    .proyectBox{
+        width: 80%;
+        height: 200px;
+        margin: 5px 20px 5px 0;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    .noMargin{
+        margin: 0;
+
+    }
+
+    .btnProyect{
+        width: 30%;
+        height: 30px;
+        margin: 20px 10px 0 0;
+    }
+
+}
