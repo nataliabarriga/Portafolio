@@ -110,12 +110,12 @@ h3{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:414px){
 
     .halfBoxThree{
         order: -1;
         width: 100%;
-        height: 150px;
+        height: 200px;
         margin: 0 0 50px 0;
         padding: 0;
     }
@@ -135,12 +135,21 @@ h3{
     
     .iconContainer{
         width: 80%;
-        height: 55px;
+        height: 80px;
     }
     
     .icon{
         width: 55px;
         height: 55px;
+    }
+
+    .iconBox{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .nameIcon{
+        font-size:13px;
     }
 
 }

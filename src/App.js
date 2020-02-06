@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from "./1.Home/nav"
 import Home from "./1.Home/home"
 import About from "./2.About/about"
 import Develop from "./2.About/develop"
@@ -7,14 +8,15 @@ import Proyects from "./3.Proyects/proyects"
 import Contact from "./4.Contact/contact"
 
 function App() {
-  return(
+  return (
     <div>
-    <Home/>
-    <About/>
-    <Develop/>
-    <Design/>
-    <Proyects/>
-    <Contact/>
+      <Nav />
+      <Home />
+      <About />
+      <Develop />
+      <Design />
+      <Proyects />
+      <Contact />
     </div>
   )
 }

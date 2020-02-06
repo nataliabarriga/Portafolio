@@ -70,26 +70,19 @@ h4{
     }
 }
 
-@media (max-width:450px){
-
-    .halfBoxFour{
-        width: 40%;
-        margin: 0 20px;
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
+@media (max-width:414px){
 
     .halfBoxFour{
         order: -1;
         width: 80%;
+        height: 360px;
         margin: 10px auto;
         padding: 10px 0px 0 10px;
     }
     
     .proyectBox{
         width: 80%;
-        height: 200px;
+        height: 300px;
         margin: 5px 20px 5px 0;
     }
 
@@ -99,13 +92,18 @@ h4{
 
     .noMargin{
         margin: 0;
-
     }
 
     .btnProyect{
-        width: 30%;
+        width: 100px;
         height: 30px;
-        margin: 20px 10px 0 0;
+        margin: 0;
+    }
+
+    .btnContainer{
+        margin: 20px 0 0 0;
+        display: flex;
+        justify-content: space-around;
     }
 
 }

@@ -15,8 +15,10 @@ body{
   }
 }
 
-@media (max-width:450px){
+@media (max-width:414px){
   body{
+    width: 98%;
+    height: 100%;
     background-size: cover;
     background-attachment: scroll ;
   }

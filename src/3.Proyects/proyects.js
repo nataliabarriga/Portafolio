@@ -4,6 +4,7 @@ import amigosecreto from "../img/amigosecreto.png"
 import rickymorty from "../img/rickymorty.png"
 import papitas from "../img/papitas.png"
 import burguer from "../img/burguer.png"
+import ScrollableAnchor from "react-scrollable-anchor"
 
 class Cards extends Component {
     render() {
@@ -24,7 +25,8 @@ class Cards extends Component {
 class Proyects extends Component {
     render() {
         return (
-            <div className="containerOne">
+            <ScrollableAnchor id="proyects">
+            <div className="containerOne" id="proyects">
                 <div className="halfBoxTwo">
                     <h2 className="alignRight yellow">Proyectos</h2>
                     <p className="description alignRight">Como parte del proceso de aprendizaje y trabajo de Laboratoria, realicé varios proyectos tanto individuales como en colaboración de mis compañeras, usando diversas herramientas de desarrollo web y para distintos formatos de pantalla. A continuación puedes ver algunos de mis proyectos.</p>
@@ -56,6 +58,7 @@ class Proyects extends Component {
                     code="https://github.com/nataliabarriga/SCL011-data-lovers"/>
                 </div>
             </div>
+            </ScrollableAnchor>
         )
     }
 
