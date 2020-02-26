@@ -1,0 +1,687 @@
+/********** HOME, ABOUT, HABILITIES, PROYECTS Y CONTACT BIG CONTAINERS ************/
+
+.header, .generalContainer {
+    /* border: 1px solid lawngreen; */
+    width: 96%;
+    height: 700px;
+    margin: 100px 0 0 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.generalContainer {
+    margin: 0;
+}
+
+.oneContainer {
+    /* border: 1px solid green; */
+    width: 40%;
+}
+
+.imgContainer {
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+/********** HABILITIES CONTAINER ************/
+
+.smallContainer {
+    /* border: 1px solid orange; */
+    width: 96%;
+    height: 80px;
+    margin: 100px 0 0 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconosContainer {
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxIcon {
+    /* border: 1px solid blue; */
+    width: 25%;
+    height: 120px;
+}
+
+/********** PROYECTS CONTAINER ************/
+
+.twoContainer {
+    /* border: 1px solid fuchsia; */
+    width: 50%;
+    margin: 0 0 50px 0;
+    padding: 0 300px 0 0;
+}
+
+.proyectsContainer {
+    /* border: 1px solid pink; */
+    width: 85%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyectScroll {
+    /* border: 1px solid yellow; */
+    width: 90%;
+    height: 95%;
+    margin: 0 20px;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.btnContainer {
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/********** TARJETAS DE PROYECTOS ************/
+
+.proyectCards {
+    width: 45%;
+    margin: 0 20px 0 0;
+    padding: 0 30px 0 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoCards {
+    width: 70%;
+}
+
+/********** IMAGENES ************/
+
+.imgContainer img {
+    width: 500px;
+}
+
+/********** IMAGENES HABILITIES ************/
+
+.boxIcon img {
+    width: 50px;
+}
+
+/********** IMAGENES PROYECTS ************/
+
+.proyectCards img {
+    width: 250px;
+}
+
+.btnArrow img {
+    width: 30px;
+}
+
+/********** IMAGENES CONTACTO ************/
+
+.btnRRSS img {
+    width: 60px;
+    height: 60px;
+}
+
+.imgFondo {
+    background-image: url(./img/fondoContacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    bottom: 0;
+}
+
+/********** TEXTOS ************/
+
+h1 {
+    font-family: 'Khand', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Khand', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Khand', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+}
+
+.yellow {
+    color: #FFD900;
+}
+
+.purple {
+    color: #32289F;
+}
+
+/********** TEXTO HABILITIES ************/
+
+.nameIcon {
+    color: #32289F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 8px 0 0 0;
+}
+
+/********** TEXTOS PROYECTS************/
+
+.description {
+    color: #32289F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+/********** BOTON ABOUT ************/
+
+.btnPurple {
+    width: 200px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #32289F;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Relaway', sans-serif;
+    color: white;
+}
+
+/********** BOTON PROYECTS ************/
+
+.btnDemo {
+    width: 90px;
+    height: 40px;
+    margin: 8px 0 0 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #32289F;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Relaway', sans-serif;
+    color: white;
+}
+
+.btnCode {
+    width: 90px;
+    height: 40px;
+    margin: 8px 0 0 0;
+    border: 2px solid #32289F;
+    border-radius: 20px;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Relaway', sans-serif;
+    color: #32289F;
+}
+
+.btnArrow {
+    width: 30px;
+    background-color: white;
+    border: none;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+/********** BOTON CONTACT ************/
+
+.btnRRSS {
+    width: 100px;
+    height: 100px;
+    margin: 30px 10px 0 0;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: #32289F;
+    cursor: pointer;
+}
+
+/********** ALINEACIONES Y ESPECIFICACIONES ************/
+
+.alignRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.alignLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.alignCenterColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignCenterRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/********** RESPONSIVE ************/
+
+@media (max-width:1024px) {
+    /********** HOME, ABOUT, HABILITIES, PROYECTS Y CONTACT BIG CONTAINERS ************/
+    .header, .generalContainer {
+        /* border: 1px solid lawngreen; */
+        width: 96%;
+        height: 600px;
+        margin: 60px 0 0 0;
+        padding: 0 20px;
+    }
+    .generalContainer{
+        margin: 0;
+    }
+    .oneContainer {
+        /* border: 1px solid green; */
+        width: 43%;
+        padding: 0 0 0 30px;
+    }
+    /********** HABILITIES CONTAINER ************/
+    .iconosContainer {
+        /* border: 1px solid red; */
+        width: 82%;
+    }
+    .boxIcon {
+        /* border: 1px solid blue; */
+        height: 100px;
+    }
+    .smallContainer {
+        /* border: 1px solid orange; */
+        width: 100%;
+        height: 180px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /********** PROYECTS CONTAINER ************/
+    .twoContainer {
+        /* border: 1px solid fuchsia; */
+        padding: 0 200px 0 0;
+    }
+    .proyectsContainer {
+        /* border: 1px solid pink; */
+        width: 90%;
+        height: 300px;
+    }
+    .btnContainer {
+        /* border: 1px solid black; */
+        margin: 15px 0 0 0;
+    }
+    /********** TARJETAS DE PROYECTOS ************/
+    .proyectCards {
+        width: 50%;
+        padding: 0 30px 0 30px;
+    }
+    .infoCards {
+        /* border: 1px solid red; */
+        width: 50%;
+    }
+    /********** IMAGENES ************/
+    .imgContainer img {
+        width: 400px;
+    }
+    /********** IMAGENES HABILITIES ************/
+    .boxIcon img {
+        width: 40px;
+    }
+    /********** IMAGENES PROYECTS ************/
+    .proyectCards img {
+        width: 180px;
+    }
+    /********** TEXTOS ************/
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    /********** TEXTO HABILITIES ************/
+    .nameIcon {
+        font-size: 12px;
+    }
+    /********** TEXTOS PROYECTS************/
+    .description {
+        font-size: 14px;
+    }
+    /********** ALINEACIONES Y ESPECIFICACIONES ************/
+    .noPadding {
+        padding: 0;
+    }
+}
+
+@media (max-width:768px) {
+    /********** HOME, ABOUT, HABILITIES, PROYECTS Y CONTACT BIG CONTAINERS ************/
+    .header, .generalContainer {
+        /* border: 1px solid lawngreen; */
+        width: 95%;
+        height: 530px;
+    }
+    .oneContainer {
+        /* border: 1px solid green; */
+        width: 43%;
+        padding: 0 0 0 30px;
+    }
+    /********** HABILITIES CONTAINER ************/
+    .iconosContainer {
+        /* border: 1px solid red; */
+        width: 85%;
+    }
+    .boxIcon {
+        /* border: 1px solid blue; */
+        height: 95px;
+    }
+    /********** PROYECTS CONTAINER ************/
+    .twoContainer {
+        /* border: 1px solid fuchsia; */
+        padding: 0 150px 0 0;
+    }
+    .proyectsContainer {
+        /* border: 1px solid pink; */
+        width: 90%;
+        height: 250px;
+    }
+    /********** TARJETAS DE PROYECTOS ************/
+    .proyectCards {
+        width: 70%;
+        padding: 0 20px 0 20px;
+    }
+    .infoCards {
+        /* border: 1px solid red; */
+        width: 55%;
+    }
+    /********** IMAGENES ************/
+    .imgContainer img {
+        width: 300px;
+    }
+    /********** IMAGENES HABILITIES ************/
+    .boxIcon img {
+        width: 35px;
+    }
+    /********** TEXTOS ************/
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
+    /********** TEXTO HABILITIES ************/
+    .nameIcon {
+        font-size: 11px;
+    }
+    /********** TEXTOS PROYECTS************/
+    .description {
+        font-size: 12px;
+    }
+    /********** IMAGENES PROYECTS ************/
+    .proyectCards img {
+        width: 150px;
+    }
+    /********** BOTON PROYECTS ************/
+    .btnDemo, .btnCode {
+        width: 80px;
+        height: 35px;
+    }
+    /********** BOTON CONTACT ************/
+    .btnRRSS {
+        width: 80px;
+        height: 80px;
+        margin: 45px 10px 0 0;
+        font-size: 12px;
+    }
+    /********** ALINEACIONES Y ESPECIFICACIONES ************/
+    .noPadding {
+        padding: 0;
+    }
+}
+
+@media (max-width:414px) {
+    /********** HOME, ABOUT, HABILITIES, PROYECTS Y CONTACT BIG CONTAINERS ************/
+    .header, .generalContainer {
+        /* border: 1px solid lawngreen; */
+        width: 92%;
+        height: 650px;
+        margin: 100px 0 0 0;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .oneContainer {
+        /* border: 1px solid green; */
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgContainer {
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /********** HABILITIES CONTAINER ************/
+    .smallContainer {
+        /* border: 1px solid orange; */
+        width: 86%;
+        height: 200px;
+        margin: 0;
+        padding: 0 20px;
+        justify-content: flex-end;
+    }
+    .iconosContainer {
+        /* border: 1px solid red; */
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxIcon {
+        /* border: 1px solid blue; */
+        width: 28%;
+        height: 120px;
+    }
+    /********** PROYECTS CONTAINER ************/
+    .twoContainer {
+        /* border: 1px solid fuchsia; */
+        width: 100%;
+        margin: 0 0 50px 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proyectsContainer {
+        /* border: 1px solid red; */
+        width: 95%;
+        height: 420px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .proyectScroll {
+        /* border: 1px solid yellow; */
+        width: 95%;
+        height: 400px;
+        margin: 0 10px;
+    }
+    .btnContainer {
+        margin: 15px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    /********** TARJETAS DE PROYECTOS ************/
+    .proyectCards {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .infoCards {
+        /* border: 1px solid blue; */
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    /********** IMAGENES ************/
+    .imgContainer img {
+        width: 300px;
+    }
+    /********** IMAGENES HABILITIES ************/
+    .boxIcon img {
+        width: 35px;
+    }
+    /********** IMAGENES PROYECTS ************/
+    .proyectCards img {
+        width: 200px;
+    }
+    /********** IMAGENES CONTACTO ************/
+    .btnRRSS img {
+        width: 40px;
+        height: 40px;
+    }
+    .imgFondo {
+        background-image: url(./img/fondoContactoS.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: initial;
+        bottom: 0;
+    }
+    /********** TEXTOS ************/
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 13px;
+        text-align: center;
+    }
+    /********** TEXTO HABILITIES ************/
+    .nameIcon {
+        font-size: 11px;
+    }
+    /********** TEXTOS PROYECTS************/
+    .description {
+        font-size: 12px;
+    }
+    /********** BOTON PROYECTS ************/
+    .btnDemo, .btnCode {
+        width: 80px;
+        height: 35px;
+    }
+    /********** BOTON CONTACT ************/
+    .btnRRSS {
+        width: 70px;
+        height: 70px;
+        margin: 45px 10px 0 0;
+        font-size: 11px;
+    }
+    /********** ALINEACIONES Y ESPECIFICACIONES ************/
+    .alignCenterRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .noPadding {
+        padding: 0;
+    }
+    .margin {
+        margin: 50px 0 0 0;
+    }
+}

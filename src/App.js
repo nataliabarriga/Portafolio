@@ -2,10 +2,12 @@ import React from 'react';
 import Nav from "./1.Home/nav"
 import Home from "./1.Home/home"
 import About from "./2.About/about"
-import Develop from "./2.About/develop"
-import Design from "./2.About/design"
+import Habilities from "./2.About/habilities"
+import HabilitiesTitle from "./2.About/habilitiesTitle"
+
 import Proyects from "./3.Proyects/proyects"
 import Contact from "./4.Contact/contact"
+
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
       <Nav />
       <Home />
       <About />
-      <Develop />
-      <Design />
+      <HabilitiesTitle />
+      <Habilities />
       <Proyects />
       <Contact />
     </div>
